@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0816a1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e40af;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="body" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1d4ed8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2563eb;stop-opacity:1" />
+    </linearGradient>
+    <clipPath id="circle">
+      <circle cx="200" cy="200" r="200"/>
+    </clipPath>
+  </defs>
+  <!-- Background -->
+  <circle cx="200" cy="200" r="200" fill="url(#bg)"/>
+  <!-- Body / shoulders -->
+  <ellipse cx="200" cy="340" rx="120" ry="80" fill="url(#body)" clip-path="url(#circle)"/>
+  <!-- Head -->
+  <circle cx="200" cy="170" r="75" fill="#fde8c8"/>
+  <!-- Face features -->
+  <circle cx="175" cy="165" r="8" fill="#4a3728"/>
+  <circle cx="225" cy="165" r="8" fill="#4a3728"/>
+  <path d="M 178 190 Q 200 205 222 190" stroke="#4a3728" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Hair -->
+  <path d="M 130 160 Q 135 110 200 100 Q 265 110 270 160 Q 260 130 200 125 Q 140 130 130 160 Z" fill="#2d1a0e"/>
+  <!-- Initials text -->
+  <text x="200" y="385" text-anchor="middle" font-family="Poppins, sans-serif" font-size="16" font-weight="700" fill="rgba(255,255,255,0.7)">YEM</text>
+</svg>
